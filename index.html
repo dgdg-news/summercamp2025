@@ -2,34 +2,68 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>두근두근 여름방학 캠프</title>
+  <title>여름방학 현수막 배너</title>
   <style>
-    body { font-family: 'Arial', sans-serif; line-height: 1.6; background: #f0f8ff; color: #333; padding: 20px; }
-    header { background: #87cefa; padding: 20px; border-radius: 10px; text-align: center; }
-    header h1 { margin: 0; font-size: 2em; color: #003366; }
-    section { margin-top: 30px; }
-    h2 { color: #006699; }
-    table { width: 100%; border-collapse: collapse; margin-top: 15px; }
-    th, td { border: 1px solid #ccc; padding: 10px; text-align: center; }
-    th { background: #e0f7fa; }
-    .highlight { background: #ffffcc; padding: 15px; border-left: 6px solid #ffcc00; margin-top: 20px; border-radius: 6px; }
-    .box { background: #ffffff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-top: 20px; }
-    footer { margin-top: 40px; font-size: 0.9em; text-align: center; color: #666; }
-    .icon-table td { text-align: left; vertical-align: top; padding: 6px 10px; }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8ff;
+      font-family: 'Pretendard', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .banner {
+      background-color: #84ccf7;
+      border-radius: 15px;
+      padding: 40px 50px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      width: 90%;
+      max-width: 900px;
+      color: #1f2937;
+    }
+
+    .banner h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      font-weight: 800;
+      color: #003366;
+    }
+
+    .banner p {
+      font-size: 1.2rem;
+      margin: 10px 0;
+      line-height: 1.8;
+    }
+
+    .highlight-box {
+      display: inline-block;
+      background-color: #fff8c4;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-weight: bold;
+      color: #e67e00;
+      margin-left: 5px;
+    }
+
+    .emphasis {
+      color: #ff8c00;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>🌞 여름방학은 ‘두근두근 방과후’와 함께!</h1>
+  <div class="banner">
+    <h1>🥰 여름방학은 ‘<span class="emphasis">두근두근 방과후</span>’와 함께!</h1>
     <p>진짜 여름방학, 관계와 놀이 속에서 자라는 두근의 시간</p>
-
-    <div class="banner">
     <p>🎉 또래 친구들, 형·누나·동생들과 함께!</p>
-    <p>🏕️ 매일이 모험 같은 <span class="highlight">진짜 여름방학!</span></p>
-    <p>☀️ <strong>두근두근방과후</strong>와 함께해요!</p>
+    <p>🗺 매일이 모험 같은<span class="highlight-box">진짜 여름방학!</span></p>
+    <p>🌞 <span class="emphasis">두근두근방과후</span>와 함께해요!</p>
   </div>
-  </header>
+
 
   <section class="box">
     <h2>✅ 프로그램 개요</h2>
