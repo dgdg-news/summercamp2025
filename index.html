@@ -5,18 +5,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>두근두근 여름방학 캠프</title>
   <style>
-    body { font-family: 'Arial', sans-serif; line-height: 1.6; background: #f0f8ff; color: #333; padding: 20px; }
-    header { background: #87cefa; padding: 20px; border-radius: 10px; text-align: center; }
-    header h1 { margin: 0; font-size: 2em; color: #003366; }
-    section { margin-top: 30px; }
-    h2 { color: #006699; }
-    table { width: 100%; border-collapse: collapse; margin-top: 15px; }
-    th, td { border: 1px solid #ccc; padding: 10px; text-align: center; }
-    th { background: #e0f7fa; }
-    .highlight { background: #ffffcc; padding: 15px; border-left: 6px solid #ffcc00; margin-top: 20px; border-radius: 6px; }
-    .box { background: #ffffff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-top: 20px; }
-    footer { margin-top: 40px; font-size: 0.9em; text-align: center; color: #666; }
-    .icon-table td { text-align: left; vertical-align: top; padding: 6px 10px; }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background: #f0f8ff;
+      color: #333;
+      padding: 20px;
+      font-size: 16px;
+    }
+    header {
+      background: #87cefa;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8em;
+      color: #003366;
+    }
+    section {
+      margin-top: 40px;
+    }
+    h2 {
+      color: #006699;
+      font-size: 1.4em;
+      margin-bottom: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+      overflow-x: auto;
+      display: block;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+      font-size: 15px;
+    }
+    th {
+      background: #e0f7fa;
+      text-align: center;
+    }
+    .highlight {
+      background: #ffffcc;
+      padding: 15px;
+      border-left: 6px solid #ffcc00;
+      margin-top: 20px;
+      border-radius: 6px;
+    }
+    .box {
+      background: #ffffff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      text-align: center;
+      color: #666;
+    }
+    .icon-table td {
+      text-align: left;
+      vertical-align: top;
+      padding: 6px 10px;
+    }
+
+    @media (max-width: 480px) {
+      body { font-size: 15px; padding: 15px; }
+      header h1 { font-size: 1.5em; }
+      h2 { font-size: 1.2em; }
+      .box { padding: 12px; }
+      th, td { font-size: 14px; }
+    }
   </style>
 </head>
 <body>
